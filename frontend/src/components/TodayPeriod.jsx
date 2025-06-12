@@ -97,7 +97,6 @@ function TodayWithTimeFilter() {
       {Object.keys(groupedByDepartment).length > 0 ? (
         Object.entries(groupedByDepartment).map(([dept, periods]) => (
           <div key={dept} className="mb-6">
-            <h4 className="font-semibold text-lg mb-2">{dept}</h4>
             <div className="overflow-x-auto">
               <table className="min-w-full border border-gray-300 text-sm">
                 <thead className="bg-sky-200 text-gray-800">
